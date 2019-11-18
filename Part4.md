@@ -60,6 +60,7 @@ Now do this for the Authenticated Role also.
 
 ## Querying the GraphQL Endpoint
 
+
 We will now query our GraphQL endpoint. Strapi has a simple GraphQL client built in which we can use to query our API.
 
 Go to http://localhost:1337/graphql and try the following query:
@@ -67,13 +68,13 @@ Go to http://localhost:1337/graphql and try the following query:
 ```graphql
     {
         takeaways {
-            id 
+            id
             name
             image {
         	   name
                 url
                 mime
-            } 
+            }
             delivery_time
         }
     }
