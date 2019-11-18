@@ -4,7 +4,7 @@ We will power our frontend application us a headless CMS, Strapi in this case.
 
 Clone the following repository on your computer. 
 
-    https://github.com/martinlevington/TechOnTheTyne-HandsOnWithJS-Srv
+    https://github.com/martinlevington/TechOnTheTyne-HandsOnWithJS-Srv.git
 
 Open a terminal and navigate to the newly cloned repository. 
 
