@@ -43,7 +43,7 @@ Create the following folder and file.
     <div
       class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin"
       v-for="takeaway in filteredList"
-      v-bind:key="takeaway"
+      v-bind:key="takeaway.id"
       uk-grid
     >
       <div class="uk-card-media-left uk-cover-container">

@@ -68,7 +68,7 @@ Copy and paste in the following code:
 
       <!-- // Card  Left -->
       <div class="uk-width-1-3@m">
-        <div v-for="item in takeaway.menuitems" class="uk-margin">
+       <div v-for="item in takeaway.menuitems" v-bind:key="item.id" class="uk-margin">
             <div class="uk-card uk-card-default">
                 <div class="uk-card-media-top">
                     <img :src="'http://localhost:1337/' + item.image.url" alt="" />

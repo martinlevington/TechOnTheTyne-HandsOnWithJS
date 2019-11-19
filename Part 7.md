@@ -47,6 +47,10 @@ Copy and paste in the following code:
 ```js
 import Cookies from 'js-cookie'
 
+// Init empty state
+export const state = () => {}
+
+// Create a mutation to save data 'user' in a cookie
 export const state = () => {}
 
 export const mutations = {  
@@ -189,7 +193,7 @@ Open the following file:
         <ul class="uk-navbar-nav">
           <li class="uk-active">
             <router-link tag="a" class="navbar-brand" to="/" exact>
-              <img src="/TechOnTheTyneSquare80x80.png" alt="Tech on the Tyne" /> &nbsp; 
+              <img src="/TechOnTheTyneSquare.png"  width="80" height="80"  alt="Tech on the Tyne" /> &nbsp; 
             </router-link>
           </li>
           <li>
