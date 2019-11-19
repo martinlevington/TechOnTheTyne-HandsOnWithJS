@@ -50,9 +50,6 @@ import Cookies from 'js-cookie'
 // Init empty state
 export const state = () => {}
 
-// Create a mutation to save data 'user' in a cookie
-export const state = () => {}
-
 export const mutations = {  
   setUser(state, user) {
     state.user = user
