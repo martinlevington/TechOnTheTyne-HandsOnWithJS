@@ -401,3 +401,5 @@ Now run the frontend application and navigate around the application. In a termi
 ``
   yarn dev
 ``
+
+If you register, and look the admin section for Strapi the headless cms you will see that you user is now registered in the backend system.
