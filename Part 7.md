@@ -179,7 +179,7 @@ Open the following file:
         <ul class="uk-navbar-nav">
           <li class="uk-active">
             <router-link tag="a" class="navbar-brand" to="/" exact>
-              <img src="/TechOnTheTyneSquare.png"  width="20" height="20"  alt="Tech on the Tyne" /> &nbsp; 
+              <img src="/TechOnTheTyneSquare.png"  width="80" height="80"  alt="Tech on the Tyne" /> &nbsp; 
             </router-link>
           </li>
           <li>
