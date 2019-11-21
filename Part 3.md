@@ -25,14 +25,15 @@ docker run -it  -e DATABASE_NAME=strapi  -e DATABASE_USERNAME=strapi -e DATABASE
 
 Mac:
 
-```
-
 set the permission on the `dockerentrypoint.sh` file
 
 ```
-
 chmod +x ./docker-entrypoint.sh
+```
 
+Start Docker
+
+```
 docker run -it \
 -e DATABASE_CLIENT=sqlite \
 -e DATABASE_NAME=strapi \
