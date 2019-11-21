@@ -203,7 +203,9 @@ Open the following file:
         <!-- If logged in -->
         <ul class="uk-navbar-nav" v-if="username">
            <li>
-            <router-link data-uk-icon="icon:cart" tag="a" title="Basket" class="navbar-brand" to="/store/basket" exact></router-link>
+            <li>
+            <router-link data-uk-icon="icon:cart" tag="a" title="Basket" class="navbar-brand" to="/store/basket" exact><span class="uk-badge">{{ numberOfItems }}</span></router-link>
+          </li>
           </li>
           <li>
             <a href="#" data-uk-icon="icon:user"></a>
