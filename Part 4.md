@@ -4,7 +4,7 @@
 
 In Strapi a Content Type, (also called a model), is used to define the structure of our data.  We need to create our 'takeaways'  Content Type which we will call 'takeaway' note that we use a non plural name for out models name.
 
-In the admin interface for Strapi Click on the 'Create You First Content Type' button.
+In the admin interface for Strapi Click on the 'Create You First Content Type' button, calling your content type "Takeaways".
 
 Now select a content type of string, and then enter 'name', and click on add another field.
 

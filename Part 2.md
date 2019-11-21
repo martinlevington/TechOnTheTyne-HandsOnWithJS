@@ -29,7 +29,7 @@ Now copy/paste the following code into uikit.js:
 
 Plugins need to be added to the 'nuxt.config.js' file and we will also add in the uikit css files here too.
 
-Add the following code in your 'nuxt.config.js'
+Add the following code in your 'nuxt.config.js', replacing the existing `css: []` block
 
 ```
 ...
@@ -166,4 +166,3 @@ In a terminal/console run the following command:
 Then visit :
 
     http://localhost:3000
-    
