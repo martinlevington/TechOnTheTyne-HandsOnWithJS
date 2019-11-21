@@ -26,13 +26,20 @@ docker run -it  -e DATABASE_NAME=strapi  -e DATABASE_USERNAME=strapi -e DATABASE
 Mac:
 
 ```
+
+set the permission on the `dockerentrypoint.sh` file
+
+```
+
+chmod +x ./docker-entrypoint.sh
+
 docker run -it \
 -e DATABASE_CLIENT=sqlite \
 -e DATABASE_NAME=strapi \
 -e DATABASE_USERNAME=strapi \
 -e DATABASE_PASSWORD=strapi \
 -p 1337:1337 \
--v \`pwd\`/headless-cms-toontakeway:/srv/app \
+-v `pwd`/headless-cms-toontakeway:/srv/app \
 toontakeaway:1.0
 ```
 
