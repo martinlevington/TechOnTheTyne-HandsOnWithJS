@@ -13,6 +13,8 @@ Register and download docker desktop from the docker website:
 
 https://www.docker.com/products/docker-desktop
 
+(Tested with version Docker 19.03.5)
+
 ## Git SCM
 
 Download Git Source code management for your platform.
@@ -27,6 +29,7 @@ https://git-fork.com/
 
 ## Nodejs
 Download and install the correct version of Node for your environment.
+(Tested with Node 10.15.2))
 
 https://nodejs.org/en/download/
 
@@ -35,6 +38,7 @@ https://nodejs.org/en/download/
 We will use yarn to manage the packages for our frontend application.
 
 https://yarnpkg.com/lang/en/
+(Tested with version 1.19.1)
 
 Follow the instructions here to install yarn on your system.
 
@@ -45,3 +49,5 @@ https://yarnpkg.com/en/docs/install#mac-stable
 Install Vue CLI, in a terminal/console window execute the following command:
 
     npm install -g @vue/cli
+    
+(Tested with version @vue/cli@4.0.5)
