@@ -136,25 +136,11 @@ Open the existing homepage and remove all of its content. Copy and paste the fol
 
 ```html
 <template>
-  <client-only>
-    <nav class="uk-navbar-container" uk-navbar>
-      <div class="uk-navbar-left">
-        <ul class="uk-navbar-nav">
-          <li class="uk-active">
-            <router-link tag="a" class="navbar-brand" to="/" exact>
-              <img src="/TechOnTheTyneSquare.png" alt="Tech on the Tyne" width="50" height="50" /> &nbsp; 
-            </router-link>
-          </li>
-          <li>
-            <router-link tag="a" class="navbar-brand" to="/takeaways" exact>Takeaways</router-link>
-          </li>
-        </ul>
-      </div>
-
-      <div class="uk-navbar-right">
-      </div>
-    </nav>
-  </client-only>
+  <div class="uk-card uk-card-default uk-card-body ">
+    <h3 class="uk-card-title">Tech on the Tyne</h3>
+      <img src="/TechOnTheTyne.jpeg" class="uk-align-center"/>
+    <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
 </template>
 ```
 Lets run our application agin to make sure that everything works.

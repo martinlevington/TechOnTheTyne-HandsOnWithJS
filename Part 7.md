@@ -262,6 +262,9 @@ export default {
   computed: {
     username() {
       return this.$store.getters["auth/username"];
+    },
+     numberOfItems() {
+      return this.$store.getters["basket/numberOfItems"];
     }
   },
   methods: {
